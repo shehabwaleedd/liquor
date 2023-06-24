@@ -1,53 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aref+Ruqaa:wght@400;700&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&family=Itim&family=Kaushan+Script&family=Luckiest+Guy&family=Macondo&family=Oooh+Baby&family=Overlock+SC&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&family=Reggae+One&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Abril+Fatface&family=Almarai:wght@400;700&family=Aref+Ruqaa+Ink:wght@400;700&family=Aref+Ruqaa:wght@400;700&family=Bakbak+One&family=Caesar+Dressing&family=Cairo:wght@200;300;400;500;600;700;800;900&family=Dancing+Script:wght@400;500;600;700&family=Expletus+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Itim&family=Kaushan+Script&family=Luckiest+Guy&family=Macondo&family=Noto+Naskh+Arabic:wght@400;500;600&family=Noto+Sans+Arabic:wght@100;200;400;500;600;700;800&family=Oooh+Baby&family=Overlock+SC&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,400;1,500;1,600;1,700&family=Reggae+One&family=Righteous&family=Scheherazade+New&family=Unbounded:wght@200;300;400;500;600;700;800;900&display=swap');
 @import url("//db.onlinewebfonts.com/c/ea250342ec4016561ba9e791c2f39c11?family=Posterama");
 
 
 
-/* ============ VARIABLES CSS ============ */
-
-
-#light {
-
-  --title-color: #FFFFE3;
-  --title-color-dark: hsl(var(--hue), var(--sat), 80%);
-  --text-color: hsl(var(--hue), var(--sat), 65%);
-  --body-color: #10100e;
-  --container-color: #1b1b1b;
-  background-color: #10100e;
-  --box-shadow-img: 0 0 0 9px rgba(254, 254, 254, 1);
-  --rim-color: rgba(254, 254, 254, 0.9);
-  --nav-color: wheat;
-  --accent-color: #f1dbb2;
-  --box-shadow: 1px 0px 19px -1px rgba(245, 222, 179, 0.75);
-  --webkit-shadow: 1px 0px 19px -1px rgba(245, 222, 179, 0.75);
-  --moz-box-shadow: 1px 0px 19px -1px rgba(245, 222, 179, 0.75);
-  --insider-color: #373737;
-  --accent-color-darker: #ffe5b9;
-  --border-color: #c2b08f;
-  --blog-text-color: hsl(var(--hue), var(--sat), 65%);
-  --progressive-bar-color: #d9c39d;
-  --stack-accent-color: #1b1b1b;
-  --stack-icons-background-color: #fbefde;
-  --overlay-color: #10100e;
-  --nav-overlay-color: #eee7e1;
-  --project-text-animation-color: #f3e9e1;
-  --logo-color: #FFFFE3;
-  --experience-text-color: #76ae7b;
-  --education-text-color: #b682c4;
-  --footer-border-color: 1px solid rgba(255, 255, 255, 0.098);
-  --about-transition-color: #eee7e1;
-  --projects-transition-color: #eee7e1;
-  --contact-transition-color: #eee7e1;
-
-
-}
-
-#dark {
+:root {
+  --header-height: 3rem;
+  /* =========== COLORS =========== */
+  /* Color mode HSL (Hue, Saturation, lightness */
+  --hue: 0;
+  --sat: 0%;
   --title-color: hsl(var(--hue), var(--sat), 39%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 60%);
   --body-color: #eee7e1;
-  --container-color: #f3e9e1;
+  --container-color: #faf9f3;
   background-color: #eee7e1;
   --nav-color: #698269;
   --rim-color: #212121;
@@ -73,28 +39,6 @@
   --about-transition-color: #1b1b1b;
   --projects-transition-color: #1b1b1b;
   --contact-transition-color: #1b1b1b;
-}
-
-
-:root {
-  --header-height: 3rem;
-  /* =========== COLORS =========== */
-  /* Color mode HSL (Hue, Saturation, lightness */
-  --hue: 0;
-  --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 30%);
-  --title-color-dark: hsl(var(--hue), var(--sat), 0%);
-  --text-color: hsl(var(--hue), var(--sat), 46%);
-  --body-color: #fff7f3;
-  --container-color: #fef4ee;
-  --accent-color-darker: #244224;
-  --border-color: #698269;
-  --accent-color: #426342;
-  --accent: var(--pink);
-  --background-color: #eee7e1;
-  --color-number: #999;
-	--color-link-hover: #1b1b1b;
-  --color-link: #b19e7f;
 	-webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
