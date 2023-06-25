@@ -32,6 +32,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.5rem;
+    height: 60vh;
 }
 
 .toppicks__card {
@@ -43,6 +44,41 @@
     cursor: pointer;
     margin-left: 5rem;
     position: relative;
+
+}
+
+.cards__bottom {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;;
+}
+
+.name__add-cart {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cart__button {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.cart__button i {
+    font-size: 1.5rem;
+    color: var(--title-color);
+    border: 1px solid var(--title-color);
+    border-radius: 50%;
+}
+
+.cart__button p {
+    font-size: 1.4rem;
+    font-weight: var(--font-bold);
+    color: var(--title-color);
+    text-transform: uppercase;
+    letter-spacing: 0.125rem;
 }
 
 .toppicks__card img {
@@ -55,6 +91,7 @@
 }
 
 .toppicks__card h2 {
+    width: 18vw;
     font-size: 1.2rem;
     font-weight: var(--font-bold);
     color: var(--title-color);
@@ -63,7 +100,7 @@
 }
 
 .card__subtitle {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: var(--font-medium);
     color: var(--text-color);
     letter-spacing: 0.125rem;
@@ -72,8 +109,8 @@
 .card__price {
     font-size: 1.1rem;
     font-weight: var(--font-bold);
-    color: var(--accent-color);
-    letter-spacing: 0.125rem;
+    color: #dd4a4a;
+    letter-spacing: 0.105rem;
     font-family: "Satoshi-Bold", cursive;
 }
 
@@ -87,7 +124,6 @@
 
 .toppicks__cards {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 
 }

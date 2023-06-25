@@ -9,7 +9,7 @@ import Malibu from "../../Assets/spirits/malibu.jpeg"
 const Data = [
     {
         id: 1,
-        title: "Stella Local 500ML",
+        title: "Stella Local Beer 500ML",
         alcohol: "4.5%",
         image: stella,
         price: "50",
@@ -30,7 +30,7 @@ const Data = [
     },
     {
         id: 4,
-        title: "Absolut Vodka (1L)",
+        title: "Authentic Absolut Vodka 1L",
         alcohol: "40%",
         image: Vodka,
         price: "1,800",
@@ -44,7 +44,7 @@ const Data = [
     },
     {
         id: 6,
-        title: "Patron Silver 750ML",
+        title: "Patron Silver Tequila 750ML",
         alcohol: "40%",
         image: Patron,
         price: "2,199",
