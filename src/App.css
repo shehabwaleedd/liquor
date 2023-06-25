@@ -12,9 +12,9 @@
   --title-color: hsl(var(--hue), var(--sat), 39%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 60%);
-  --body-color: #eee7e1;
+  --body-color: #f1e7de;
   --container-color: #faf9f3;
-  background-color: #eee7e1;
+  background-color: #f1e7de;
   --nav-color: #698269;
   --rim-color: #212121;
   --accent-color: #4E6C50;
