@@ -52,6 +52,7 @@
     "sass": "^1.62.1",
     "splitting": "^1.0.6",
     "styled-components": "^5.3.9",
+    "swiper": "^9.4.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
