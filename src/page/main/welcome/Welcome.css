@@ -5,7 +5,8 @@
     justify-content: center;
     height: 60vh;
     width: 100vw;
-    background-color: #fbcfa8;
+    background-color: #fad3b1;
+    border-bottom: 1px solid #000;
 }
 
 .welcome__container {
@@ -32,7 +33,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: center;
+    justify-content: space-around;
     width: 80%;
     height: 100%;
 }
@@ -53,12 +54,31 @@
     text-transform: uppercase;
 }
 
+.welcome__button button {
+
+    width: 20vw;
+    height: 8vh;
+    text-transform: uppercase;
+    background-color: var(--title-color);
+    border: 1px solid var(--title-color);
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.welcome__button button h2 {
+    color: var(--container-color);
+    font-size: 2rem;
+    font-weight: 600;
+    font-family: "Aboreto";
+}
+
 .welcome__right {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 50vw;
+    width: 52.3vw;
     height: 60vh;
     background-color: var(--main-right-color);
     border-radius: 0 1rem 1rem 0;
@@ -78,19 +98,20 @@
 .yellowish__circle {
     position: absolute;
     top: 2rem;
-    left: 2rem;
+    left: 4rem;
     width: 80%;
     height: 85%;
-    border-radius: 50%;
+    border-radius: 47%;
     background-color: #fdf3ea;
     z-index: -1;
 }
 
 .right__text h1 {
-
+    padding-left: 1.6rem;
     font-size: 2rem;
     font-weight: 600;
     color: var(--title-color);
     font-family: "Aboreto";
     text-transform: uppercase;
+    line-height: 3.5rem;
 }

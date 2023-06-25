@@ -1,6 +1,7 @@
 import React from 'react'
 import './Main.css'
 import glass from "../../Assets/creek.jpg"
+import ArcText from '../../component/arcTextCircle/ArcText'
 
 const Main = () => {
     return (
@@ -16,6 +17,7 @@ const Main = () => {
                         </div>
                     </div>
                 </div>
+                <ArcText />
                 <div className="main__right">
                     <img src={glass} alt="" />
                 </div>
