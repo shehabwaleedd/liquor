@@ -5,6 +5,7 @@
     justify-content: center;
     width: 98vw;
     height: 100vh;
+    margin-top: 20rem;
 }
 
 .toppicks__container {
@@ -14,6 +15,7 @@
     justify-content: center;
     width: 100%;
     height: 70%;
+    margin-bottom: 5rem;
 }
 
 .picks_title {
@@ -24,6 +26,7 @@
     letter-spacing: 0.525rem;
     gap: 0.5rem;
     margin-bottom: 5rem;
+    margin-top: 4rem;
 }
 
 .toppicks__cards {
@@ -64,13 +67,18 @@
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .cart__button i {
     font-size: 1.5rem;
     color: var(--title-color);
-    border: 1px solid var(--title-color);
+    border: 1px solid #ee7272;;
     border-radius: 50%;
+    color: #ee7272;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .cart__button p {
@@ -79,6 +87,9 @@
     color: var(--title-color);
     text-transform: uppercase;
     letter-spacing: 0.125rem;
+    color: #ee7272;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .toppicks__card img {
@@ -88,6 +99,8 @@
     border: 1px solid var(--accent-color);
     border-radius: 1.5rem;
     object-position: 100% 50%;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .toppicks__card h2 {
@@ -97,6 +110,8 @@
     color: var(--title-color);
     text-transform: uppercase;
     letter-spacing: 0.125rem;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .card__subtitle {
@@ -104,14 +119,18 @@
     font-weight: var(--font-medium);
     color: var(--text-color);
     letter-spacing: 0.125rem;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .card__price {
     font-size: 1.1rem;
     font-weight: var(--font-bold);
-    color: #dd4a4a;
+    color: #ee7272;
     letter-spacing: 0.105rem;
     font-family: "Satoshi-Bold", cursive;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+
 }
 
 .card__bottom {
@@ -125,6 +144,7 @@
 .toppicks__cards {
     display: flex;
     justify-content: space-between;
+    transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
 
 }
 

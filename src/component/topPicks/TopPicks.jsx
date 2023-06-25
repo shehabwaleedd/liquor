@@ -8,6 +8,8 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 import './TopPicks.css';
 import Data from './Data';
+import poster from "../../Assets/Desperados promo web.png"
+import poster2 from "../../Assets/Free Delivery Web.jpg"
 
 const TopPicks = () => {
     const [itemCounts, setItemCounts] = React.useState(Data.map(() => 0));
@@ -30,6 +32,7 @@ const TopPicks = () => {
 
     return (
         <section className="toppicks section">
+            <img src={poster2} alt="" />
             <h2 className="picks_title">Curated Picks</h2>
             <div className="toppicks__container">
                 <Swiper
@@ -70,6 +73,7 @@ const TopPicks = () => {
                     </div>
                 </Swiper>
             </div>
+            <img src={poster} alt="" />
         </section>
     );
 };
