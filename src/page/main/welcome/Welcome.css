@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+    height: 70vh;
     width: 100vw;
     background-color: #fad3b1;
     border-bottom: 1px solid #000;
@@ -24,7 +24,7 @@
     align-items: center;
     justify-content: center;
     width: 50vw;
-    height: 60vh;
+    height: 70vh;
     background-color: var(--main-left-color);
     border-radius: 1rem 0 0 1rem;
 }
@@ -79,7 +79,7 @@
     align-items: center;
     justify-content: center;
     width: 52.3vw;
-    height: 60vh;
+    height: 70vh;
     background-color: var(--main-right-color);
     border-radius: 0 1rem 1rem 0;
 }
@@ -97,10 +97,10 @@
 
 .yellowish__circle {
     position: absolute;
-    top: 2rem;
+    top: 5rem;
     left: 4rem;
     width: 80%;
-    height: 85%;
+    height: 70%;
     border-radius: 47%;
     background-color: #fdf3ea;
     z-index: -1;

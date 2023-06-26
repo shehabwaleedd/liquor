@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 100vh;
     width: 100vw;
     border-bottom: 1px solid #000;
 }
@@ -21,7 +21,7 @@
     align-items: center;
     justify-content: center;
     width: 50vw;
-    height: 70vh;
+    height: 100vh;
     background-color: var(--main-left-color);
     border-radius: 1rem 0 0 1rem;
 }
@@ -59,7 +59,7 @@
     align-items: center;
     justify-content: center;
     width: 50vw;
-    height: 70vh;
+    height: 100vh;
     background-color: var(--main-right-color);
     border-radius: 0 1rem 1rem 0;
 }
