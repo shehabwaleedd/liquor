@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.65b35c0b.css",
-    "main.js": "/static/js/main.f799d1f5.js",
+    "main.css": "/static/css/main.3ccc31f3.css",
+    "main.js": "/static/js/main.24d42b71.js",
     "static/js/787.dcfd0264.chunk.js": "/static/js/787.dcfd0264.chunk.js",
     "static/media/creek.jpg": "/static/media/creek.db547f8f378d997e1e1e.jpg",
     "static/media/johnnywalker.jpeg": "/static/media/johnnywalker.889422d43f44f2abb2b9.jpeg",
     "static/media/Desperados promo web.png": "/static/media/Desperados promo web.d1740de2feda6affb9fe.png",
     "static/media/stellas.jpeg": "/static/media/stellas.946e75ca5a055e9a28b2.jpeg",
     "static/media/patron.jpeg": "/static/media/patron.fca19d82cd6a11edb40a.jpeg",
+    "static/media/domaine.png": "/static/media/domaine.cff3316de02474f3d220.png",
+    "static/media/stella.png": "/static/media/stella.2323a919709a1bc22390.png",
     "static/media/AbsolutVodka.jpeg": "/static/media/AbsolutVodka.7e21bf8958b15260d359.jpeg",
     "static/media/Ch_Lafite_Rothschild_NV_BOT.jpeg": "/static/media/Ch_Lafite_Rothschild_NV_BOT.a563000e3503afa7276f.jpeg",
     "static/media/Satoshi-VariableItalic.ttf": "/static/media/Satoshi-VariableItalic.9519fea9567e2405bc08.ttf",
@@ -48,12 +50,12 @@
     "static/media/Satoshi-Light.woff2": "/static/media/Satoshi-Light.df8f06167ee6fd05a131.woff2",
     "index.html": "/index.html",
     "static/media/getFetch.cjs": "/static/media/getFetch.40f37ddea2378391108f.cjs",
-    "main.65b35c0b.css.map": "/static/css/main.65b35c0b.css.map",
-    "main.f799d1f5.js.map": "/static/js/main.f799d1f5.js.map",
+    "main.3ccc31f3.css.map": "/static/css/main.3ccc31f3.css.map",
+    "main.24d42b71.js.map": "/static/js/main.24d42b71.js.map",
     "787.dcfd0264.chunk.js.map": "/static/js/787.dcfd0264.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.65b35c0b.css",
-    "static/js/main.f799d1f5.js"
+    "static/css/main.3ccc31f3.css",
+    "static/js/main.24d42b71.js"
   ]
 }
