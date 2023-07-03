@@ -1,6 +1,6 @@
 import React from 'react'
 import './Main.css'
-import glass from "../../Assets/creek.jpg"
+import glass from "../../Assets/stellas.jpeg"
 import ArcText from '../../component/arcTextCircle/ArcText'
 
 const Main = () => {
@@ -11,7 +11,7 @@ const Main = () => {
                     <div className="left__container">
                         <p>CAIRO BREWS HOUSE </p>
                         <div className="left__title">
-                            <h1>Delta's</h1>
+                            <h1>Cairo's</h1>
                             <h1>Wine, Beer &</h1>
                             <h1>Spirits Specialists</h1>
                         </div>
